@@ -185,6 +185,33 @@ while q:
         if not in visited:
             q.append
 ```
+```python
+
+def shortestCellPath(grid, sr, sc, tr, tc):
+  rows, cols = len(grid), len(grid[0])
+  directions = ((-1,0),(1,0),(0,-1),(0,1))
+  
+  ans = float('inf')
+  
+  def dfs(r, c, visited, steps):
+    if (r,c) == (tr,tc):
+      return steps
+      
+    # validation
+    if r < 0 or r >= rows or c < 0 or c >= cols or grid[r][c] == 0 or (r,c) in visited:
+      return float('inf')
+    visited.add((r,c))
+    dfs(r+1, c, visited, steps+1)
+    dfs(r-1, c, visited, steps+1)
+    dfs(r, c+1, visited, steps+1)
+    dfs(r, c-1, visited, steps+1)
+  
+  
+  ans = min( ans, dfs(sr, sc, set(), 0))
+  return ans if ans != float('inf') else -1
+
+
+```
 
 
 ### 4. Trees
