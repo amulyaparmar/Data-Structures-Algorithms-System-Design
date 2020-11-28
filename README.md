@@ -156,6 +156,38 @@ def LIS(nums):
 - Reservoir Sampling
 - random.random()*3#1  (0, 1, 2)
 
+
+- Binary Search
+```python
+
+def binarySearch(x, n):
+  
+  if x == 0:
+    return 0
+  
+  lo, hi = 0, x
+  diff = float('inf')
+  
+  while lo < hi :
+    
+    mid = float(hi + lo) / 2
+    
+    mid_n =  mid**n
+    diff = x - mid_n
+    
+    if abs(diff) <= .001:
+      return mid
+    
+    elif x > mid**n:
+      lo = mid 
+    
+    elif x < mid**n :
+      hi = mid 
+    
+  return -1
+
+```
+
 ### 3. Graphs
 - visited
   - separate 2D array 
