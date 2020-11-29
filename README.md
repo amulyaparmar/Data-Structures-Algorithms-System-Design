@@ -1,6 +1,31 @@
 # Data Structures and Algorithms
 This is my personal Data Structures and Algorithms study guide for coding interviews.  It is based off practice sites, articles, papers, online courses, and the roughly 500 Leetcode problems I've experienced.  
 
+## [Questions to ask interviewers:] (https://github.com/yangshun/tech-interview-handbook/blob/master/contents/questions-to-ask.md)
+
+<details><summary> Easy way to test code </summary>
+  
+```python
+
+def square(x):
+    """Return the square of x.
+
+    >>> square(2)
+    4
+    >>> square(-2)
+    4
+    """
+
+    return x * x
+
+if __name__ == '__main__':
+    import doctest
+    doctest.testmod()
+
+```
+  
+</details>
+
 ## Table of Contents
 - Dynamic Programming
 - Sorts / Searches
