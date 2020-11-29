@@ -16,9 +16,7 @@ This is my personal Data Structures and Algorithms study guide for coding interv
 - Stacks / Queues
 
 
-### 1. Dynamic Programming
-
-### 16. [Dynamic Programming](https://www.educative.io/courses/grokking-dynamic-programming-patterns-for-coding-interviews)
+### 1. [Dynamic Programming](https://www.educative.io/courses/grokking-dynamic-programming-patterns-for-coding-interviews)
 
 **Follow [this](https://tinyurl.com/vmmaxbe) golden rule to approach any DP problem.**
 
