@@ -1,7 +1,7 @@
 # Data Structures and Algorithms
 This is my personal Data Structures and Algorithms study guide for coding interviews.  It is based off practice sites, articles, papers, online courses, and the roughly 500 Leetcode problems I've experienced.  
 
-## [Questions to ask interviewers:] (https://github.com/yangshun/tech-interview-handbook/blob/master/contents/questions-to-ask.md)
+[Questions to ask interviewers:](https://github.com/yangshun/tech-interview-handbook/blob/master/contents/questions-to-ask.md)
 
 <details><summary> Easy way to test code </summary>
   
