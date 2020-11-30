@@ -24,6 +24,16 @@ if __name__ == '__main__':
 
 ```
   
+  
+```python
+
+Important
+- You must use m x n grids
+- Path exclusively contains 1x1's  
+
+
+
+```
 </details>
 
 ## Table of Contents
