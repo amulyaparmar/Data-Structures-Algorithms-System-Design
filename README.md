@@ -42,6 +42,7 @@ shortestCellPath(starting_point):
 
 
 ```
+
 </details>
 
 ## Table of Contents
