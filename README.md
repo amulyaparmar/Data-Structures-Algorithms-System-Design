@@ -749,6 +749,7 @@ Trees:
 
 
 # Technical Interview Prep
+https://github.com/khanhnamle1994/technical-interview-prep
 
 Here are the sections:
 * [How to Succeed in Data Structures and Algorithms Interview](#how-to-succeed-in-data-structures-and-algorithms-interview)
